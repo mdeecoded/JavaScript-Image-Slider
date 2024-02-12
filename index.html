@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Image Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <img src="https://img.freepik.com/free-photo/workspace-with-office-supplies-top-view_144627-32478.jpg" alt="Slide 1">
+          <div class="caption">Workspace with Office Supplies</div>
+          <div class="description">A modern workspace equipped with the latest office supplies.</div>
+        </div>
+        <div class="slide">
+          <img src="https://img.freepik.com/free-photo/flat-lay-desk-dark-concept-with-copy-space_23-2148459508.jpg" alt="Slide 2">
+          <div class="caption">Flat Lay Desk Concept</div>
+          <div class="description">A stylish flat lay desk setup with ample copy space.</div>
+        </div>
+        <div class="slide">
+          <img src="https://img.freepik.com/free-photo/keyboard-gerbera-flower-wrist-watch-blank-paper-nail-varnish-makeup-brush-cellphone-wooden-desk_23-2147940398.jpg" alt="Slide 3">
+          <div class="caption">Tech Workspace</div>
+          <div class="description">A tech-inspired workspace with essential gadgets and tools.</div>
+        </div>
+        <div class="slide">
+          <img src="https://img.freepik.com/free-photo/overhead-view-coffee-cup-calculator-pot-plant-blank-white-papers-pencils-paper-files-black-background_23-2147916412.jpg" alt="Slide 4">
+          <div class="caption">Modern Office Setup</div>
+          <div class="description">An overhead view of a modern office setup with various essentials.</div>
+        </div>
+      </div>
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <div class="dots-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
